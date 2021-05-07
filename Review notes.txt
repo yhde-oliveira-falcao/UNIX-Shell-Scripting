@@ -1,0 +1,23 @@
+1) mkdir ~/homework/ULI101
+2)/users/david/stuff/morestuff/newtest
+3)mkdir -p ~/homework/programming/c++/Fall2018
+4)cp /users/david/homework/readme ~ (Absolute)
+  cp ~/homework/readme ~            (relative to home)
+  cp ../../homework/readme ~        (Relative)
+5)mv ~/homework ~/work
+6)ls -a ~mary
+7)cp ~mary/assignment.txt ~/assign.txt
+8)chmod o+r ..  (r{}{})
+9)cd ../../Linux
+10)chmod g+x ~/homework
+11)cp -s ~mary/letters/ ~/stuff/
+12)ls boy?-> boys,boy1,boy2
+   ls boy*-> all
+   ls boy[12] -> boy1,boy2
+   ls boy[!0-9] -> boys
+   ls boy*[!0-9] -> boyhood,boys
+13)sort -k3 Students
+14)cat students | tr ' ' '\t' > Students_tab
+15)sort -t '\t' -k3 Students_tab (-t for field separators or delimitators)
+16)sort -k5 Students | uniq -C | cut -f1
+   grep '18$' students | wc -l 

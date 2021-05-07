@@ -1,0 +1,18 @@
+REGULAR EXPRESSIONAS!!!
+
+5+3 -> Arithmetic expressions
+&& -> Logic expressions
+school -> Ordinary expression (only means school)
+c.t -> . can mean anything... 
+^ means at the begining of the line
+$ means at the end of the line
+(abc)* is abc grouped together ---matches--> abc ;abcabc ;abcabcabc
+
+REGULAR EXPRESSIONS: To  search for file contents (inside the file)
+FILE NAME: To search by 
+
+$grep ^'my cat'
+
+searches: vi: : /a/g (all occurrences of "a" on the line)
+searches: vi: : /a (only the first  occurrence of "a" on the line)
+searches: vi: : %/a/g (all occurrences of "a" on the text)

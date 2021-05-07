@@ -1,0 +1,17 @@
+positions of the variables seted:  $1 $2....${10} ${11}.....
+Like: set toronto
+echo $1 will output toronto
+
+command SHIFT
+shift shifts the variables over to the  right, and the first one is lost.
+
+echo $# gives the number of variables declared
+
+COMMAND READONLY
+it makes a variable read onl, it cannot be unset.
+
+inside the bash: test 99 -lt 100 ; echo $? will give 0 as result 
+
+~ali.nezhad/lessons for examples
+
+

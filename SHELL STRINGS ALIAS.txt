@@ -1,0 +1,67 @@
+BASH
+$ bash --to start the bash 
+$ exit --to exit the shell
+If you want to export something to the bash you use the command $ export 
+then open the bash and the thing exported can be executed in bash.
+Example: something = hi. then echo something, then export something
+then open bash and then execute echo something.
+
+name=yuri
+(to undo): name=
+or unset name.
+
+PATH shows the directories paths that the system may look to execute 
+a program or run a command.
+to edit the path: $PATH=$PATH:(add something like: ~/lessons/)
+
+$ source (opens a shell (a child process))
+
+if[    ]
+then
+elif
+elif
+else
+fi
+
+Ex:
+if [ -n $str1 ] #Note the white spaces
+ then
+  echo str1 is not null
+ else
+   echo str1 is null
+fi 
+
+if [ -z $str2 ]
+ then 
+  echo str2 is null
+ else
+   echo str2 not null
+fi  
+
+#test command
+test  "str3" = $str4" #note the quotations
+ echo str3 and str4 are the same.
+
+
+test com &&....||
+$ ls && echo ok ||....
+
+EX: test 3 -lt 4 && echo ok || echo nok
+it prints ok
+test 3 -gt 4 && echo ok || echo nok
+it prints nok
+
+Comparators:
+-eq
+-ne
+-lt
+-gt
+-le
+-ge 
+=
+<=
+!=
+
+
+
+ 

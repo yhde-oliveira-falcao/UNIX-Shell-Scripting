@@ -1,0 +1,9 @@
+AWK!!!
+awk -FFv 'bbegin{}pattern{action}end{}' filename
+           |              |        |
+      pre-processing   action      post-processing
+
+{print $1, $2, total}
+$ reffers to the FIELD and not positional indicator.
+$0 means the whole line (all the fields)-> print $0
+awk -F',' '$5 ~ /^3[0-9](3)$/' cars

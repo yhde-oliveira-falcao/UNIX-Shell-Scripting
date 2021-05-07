@@ -1,0 +1,12 @@
+sort -t';' -k2 cars_semicolon (-t';' means field separator ;)
+-k2 is the field 2 of the file
+
+cat filename | tr a-z A-Z or $tr 'a-z' 'A-Z' < filename
+
+grep is like to search and show
+
+grep 'ford' display the lines with ford
+
+cart cars_semicolon | grep 'ford' | wc -l gives the times that 
+ford appear in the file (the number of lines -> -l)
+
